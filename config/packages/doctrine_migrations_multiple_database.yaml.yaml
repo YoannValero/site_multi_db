@@ -1,0 +1,11 @@
+doctrine_migrations_multiple_database:
+    entity_managers:
+        default:
+            migrations_paths:
+                DoctrineMigrations\Main: '%kernel.project_dir%/migrations/Main'
+        asl:
+            migrations_paths:
+                DoctrineMigrations\Asl: '%kernel.project_dir%/migrations/Asl'
+        exploc:
+            migrations_paths:
+                DoctrineMigrations\Exploc: '%kernel.project_dir%/migrations/Exploc'
