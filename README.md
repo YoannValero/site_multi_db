@@ -134,7 +134,10 @@ doctrine_migrations_multiple_database:
             migrations_paths:
                 DoctrineMigrations\Exploc: '%kernel.project_dir%/migrations/Exploc'
 ```
-
+## Création de la base de données
+```sh
+php bin/console doctrine:database:create --connection=asl
+```
 ## Migration
 
 ```sh
